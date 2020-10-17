@@ -1,0 +1,275 @@
+[33mcommit c3557fdfed86fcded58c11c23ba4dedd3a288dd7[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Akki <akashnai632@gmail.com>
+Date:   Sat Oct 17 18:38:37 2020 +0530
+
+    akki ka msg + LN: remvoed word.docx from tracking
+
+[1mdiff --git a/word.docx b/word.docx[m
+[1mdeleted file mode 100644[m
+[1mindex 60fa29c..0000000[m
+[1m--- a/word.docx[m
+[1m+++ /dev/null[m
+[36m@@ -1,6 +0,0 @@[m
+[31m-This is a word file for learning to use git dfsfdsfas[m
+[31m-[m
+[31m-[m
+[31m-Fsdfsdaf[m
+[31m-[m
+[31m-fasdfdfasdfsd[m
+
+[33mcommit 6bf205a3b9170698849f8c8e6f6ff274283b972e[m
+Author: Akki <akashnai632@gmail.com>
+Date:   Sat Oct 17 18:35:50 2020 +0530
+
+    added
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mindex a6fbe04..10947ab 100644[m
+[1m--- a/.gitignore[m
+[1m+++ b/.gitignore[m
+[36m@@ -1,3 +1,3 @@[m
+ *.log[m
+ /test/[m
+[31m-word.docx[m
+\ No newline at end of file[m
+[32m+[m[32mword.docx[m[41m [m
+\ No newline at end of file[m
+
+[33mcommit 8f9dc630ee7af9a6804a3474bdb93975c273280b[m
+Author: Akki <akashnai632@gmail.com>
+Date:   Sat Oct 17 18:35:12 2020 +0530
+
+    shitty commit just for no reason. wait i've added word.docx to .gitignore and then made some changes to word and it still shows the changes to the git status so now gonna learn that
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mindex 251a14b..a6fbe04 100644[m
+[1m--- a/.gitignore[m
+[1m+++ b/.gitignore[m
+[36m@@ -1,2 +1,3 @@[m
+ *.log[m
+[31m-/test/[m
+\ No newline at end of file[m
+[32m+[m[32m/test/[m
+[32m+[m[32mword.docx[m
+\ No newline at end of file[m
+[1mdiff --git a/word.docx b/word.docx[m
+[1mindex 558a174..60fa29c 100644[m
+[1m--- a/word.docx[m
+[1m+++ b/word.docx[m
+[36m@@ -3,4 +3,4 @@[m [mThis is a word file for learning to use git dfsfdsfas[m
+ [m
+ Fsdfsdaf[m
+ [m
+[31m-fasd[m
+[32m+[m[32mfasdfdfasdfsd[m
+
+[33mcommit c2b6797c045a04591d55898ec32b8cc12280aa39[m
+Author: Akki <akashnai632@gmail.com>
+Date:   Sat Oct 17 18:30:33 2020 +0530
+
+    renamed the file using mv so the old file will get deleted and the same file will be placed with new name in same directory
+
+[1mdiff --git a/first.txt b/firstrenamed.txt[m
+[1msimilarity index 100%[m
+[1mrename from first.txt[m
+[1mrename to firstrenamed.txt[m
+
+[33mcommit 234d1582d201620d66aa6bed258a43702f9a01df[m
+Author: Akki <akashnai632@gmail.com>
+Date:   Sat Oct 17 18:27:44 2020 +0530
+
+    deleted second.txt
+
+[1mdiff --git a/second.txt b/second.txt[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+
+[33mcommit e4cb07f2dcc032783bfc33b6a5deb4b77b36a14a[m
+Author: Akki <akashnai632@gmail.com>
+Date:   Sat Oct 17 18:25:36 2020 +0530
+
+    renamed newfile.txt to second.txt
+
+[1mdiff --git a/New Text Document.txt b/second.txt[m
+[1msimilarity index 100%[m
+[1mrename from New Text Document.txt[m
+[1mrename to second.txt[m
+
+[33mcommit 2699237bd7eaa56ef33df42fa469e7a6f19212a2[m
+Author: Akki <akashnai632@gmail.com>
+Date:   Sat Oct 17 18:21:10 2020 +0530
+
+    second file added
+
+[1mdiff --git a/New Text Document.txt b/New Text Document.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+
+[33mcommit 1455b440b33e7c439cc90a8b704bdf4de2a4e825[m
+Author: Akki <akashnai632@gmail.com>
+Date:   Sat Oct 17 18:16:04 2020 +0530
+
+    direct commit
+
+[1mdiff --git a/first.txt b/first.txt[m
+[1mindex bd60066..87bfca8 100644[m
+[1m--- a/first.txt[m
+[1m+++ b/first.txt[m
+[36m@@ -2,4 +2,5 @@[m [mthis is version 1[m
+ making the 2nd commit again[m
+ fdssaf[m
+ [m
+[31m-fsdhjkfsdhuio[m
+\ No newline at end of file[m
+[32m+[m[32mfsdhjkfsdhuio[m
+[32m+[m[32mfsdfasd[m
+\ No newline at end of file[m
+
+[33mcommit 4a05e8a4da680c90def1fb447e5661d237e01379[m
+Author: Akki <akashnai632@gmail.com>
+Date:   Sat Oct 17 18:13:29 2020 +0530
+
+    This is basic commit
+
+[1mdiff --git a/word.docx b/word.docx[m
+[1mindex 4309675..558a174 100644[m
+[1m--- a/word.docx[m
+[1m+++ b/word.docx[m
+[36m@@ -1 +1,6 @@[m
+[31m-This is a word file for learning to use git [m
+[32m+[m[32mThis is a word file for learning to use git dfsfdsfas[m
+[32m+[m
+[32m+[m
+[32m+[m[32mFsdfsdaf[m
+[32m+[m
+[32m+[m[32mfasd[m
+
+[33mcommit 7571141ed51544146a9f9dc97d2d1fad63d77364[m
+Author: Akki <akashnai632@gmail.com>
+Date:   Thu Oct 15 17:39:40 2020 +0530
+
+    just learnt about git diff
+
+[1mdiff --git a/first.txt b/first.txt[m
+[1mindex 2452442..bd60066 100644[m
+[1m--- a/first.txt[m
+[1m+++ b/first.txt[m
+[36m@@ -1,2 +1,5 @@[m
+ this is version 1[m
+[31m-making the 2nd commit again[m
+\ No newline at end of file[m
+[32m+[m[32mmaking the 2nd commit again[m
+[32m+[m[32mfdssaf[m
+[32m+[m
+[32m+[m[32mfsdhjkfsdhuio[m
+\ No newline at end of file[m
+
+[33mcommit 61ca4b4e14b5491bfce491852fa0679ced656180[m
+Author: Akki <akashnai632@gmail.com>
+Date:   Thu Oct 15 13:48:10 2020 +0530
+
+    fixed some files
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mindex bf0824e..251a14b 100644[m
+[1m--- a/.gitignore[m
+[1m+++ b/.gitignore[m
+[36m@@ -1 +1,2 @@[m
+[31m-*.log[m
+\ No newline at end of file[m
+[32m+[m[32m*.log[m
+[32m+[m[32m/test/[m
+\ No newline at end of file[m
+[1mdiff --git a/static/dummy.txt b/static/dummy.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/static/test/excelsheet.xlsx b/static/test/excelsheet.xlsx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ecb6c9c[m
+Binary files /dev/null and b/static/test/excelsheet.xlsx differ
+
+[33mcommit 420332adfcafb05125fccdb9833723f4f44059f5[m
+Author: Akki <akashnai632@gmail.com>
+Date:   Thu Oct 15 13:38:34 2020 +0530
+
+    added all log files for ignoring
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mindex 4d914ca..bf0824e 100644[m
+[1m--- a/.gitignore[m
+[1m+++ b/.gitignore[m
+[36m@@ -1 +1 @@[m
+[31m-error.log[m
+\ No newline at end of file[m
+[32m+[m[32m*.log[m
+\ No newline at end of file[m
+
+[33mcommit 918c4291f666b9e0e8a539b41cae717ab0ad231a[m
+Author: Akki <akashnai632@gmail.com>
+Date:   Thu Oct 15 13:33:00 2020 +0530
+
+    added git egnore
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4d914ca[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32merror.log[m
+\ No newline at end of file[m
+
+[33mcommit ff3fea649787f75b86b0e3fe3d3a162818a10c5a[m
+Author: Akki <akashnai632@gmail.com>
+Date:   Wed Oct 14 15:18:43 2020 +0530
+
+    fixed all files because i'm pro
+
+<C:\Users\Akash\AppData\Local\Temp/8VVceN_word.docx> does not seem to be a docx file!
+[1mdiff --git a/word.docx b/word.docx[m
+[1mindex e69de29..4309675 100644[m
+[1m--- a/word.docx[m
+[1m+++ b/word.docx[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mThis is a word file for learning to use git[m[41m [m
+
+[33mcommit fd83b0cb9c82c513990e81da60873708826e4f79[m
+Author: Akki <akashnai632@gmail.com>
+Date:   Wed Oct 14 15:18:17 2020 +0530
+
+    fixed first.txt for no reason
+
+[1mdiff --git a/first.txt b/first.txt[m
+[1mindex 273ae2d..2452442 100644[m
+[1m--- a/first.txt[m
+[1m+++ b/first.txt[m
+[36m@@ -1,2 +1,2 @@[m
+ this is version 1[m
+[31m-making the 2nd commit[m
+\ No newline at end of file[m
+[32m+[m[32mmaking the 2nd commit again[m
+\ No newline at end of file[m
+
+[33mcommit 6d31a113cfbdae3c6f611bbe9b3b5eea9b2d2f5a[m
+Author: Akki <akashnai632@gmail.com>
+Date:   Wed Oct 14 15:17:23 2020 +0530
+
+    fixing first.txt for no reason
+
+[1mdiff --git a/excelsheet.xlsx b/excelsheet.xlsx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ecb6c9c[m
+Binary files /dev/null and b/excelsheet.xlsx differ
+[1mdiff --git a/first.txt b/first.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..273ae2d[m
+[1m--- /dev/null[m
+[1m+++ b/first.txt[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32mthis is version 1[m
+[32m+[m[32mmaking the 2nd commit[m
+\ No newline at end of file[m
+[1mdiff --git a/word.docx b/word.docx[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+<C:\Users\Akash\AppData\Local\Temp/2EeoNj_word.docx> does not seem to be a docx file!
